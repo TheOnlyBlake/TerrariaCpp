@@ -25,7 +25,7 @@ bool initGame() {
 
     generateWorld(gameData.gameMap);
 
-    gameData.camera.target = {0,0}; //world-space center of view, we will use this as the camera position
+    gameData.camera.target = {20,120}; //world-space center of view, we will use this as the camera position
     gameData.camera.rotation = 0.0f;
     gameData.camera.zoom = 100.0f;
 
